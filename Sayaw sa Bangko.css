@@ -1,0 +1,84 @@
+body {
+    font-family: Georgia, serif;
+    background: linear-gradient(135deg, #e6f7ff, #d4f1f4);
+    color: #2b2b2b;
+    margin: 0;
+}
+
+
+header {
+    background: linear-gradient(90deg, #0077b6, #00b4d8);
+    padding: 22px;
+    border-bottom: 3px solid #005f73;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 6px;
+}
+
+
+.back-link {
+    color: #ffe8a3;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 6px 14px;
+    border: 2px solid #ffe8a3;
+    border-radius: 12px;
+    transition: all 0.3s;
+}
+
+.back-link:hover {
+    background: #ffe8a3;
+    color: #005f73;
+}
+
+
+.content {
+    max-width: 930px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 0 28px rgba(0, 95, 115, 0.2);
+}
+
+.content img {
+    height: 479px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 180, 216, 0.35);
+}
+
+
+.dance-box {
+    background: linear-gradient(45deg, #fefae0, #faedcd);
+    border-left: 8px solid #00b4d8;
+    padding: 24px;
+    margin-bottom: 28px;
+    border-radius: 14px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dance-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 26px rgba(0, 180, 216, 0.4);
+}
+
+
+.content h2 {
+    font-size: 34px;
+    margin-top: 25px;
+    color: #005f73;
+}
+
+.content p {
+    font-size: 18px;  
+    line-height: 2.0;
+    text-align: justify;
+}
